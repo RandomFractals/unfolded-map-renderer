@@ -2,12 +2,14 @@
   height: 480px;
   width: 100%;
   margin: 0px;
+  background-color: var(--vscode-editor-background) !important;
 }
 
 .unfolded-map {
+  background-color: var(--vscode-editor-background);
   font-family: monospace;
   font-size: 12px;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .text-output {
