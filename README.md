@@ -88,7 +88,7 @@ Install and use [Data Table 🈸 for Notebooks 📚](https://marketplace.visuals
 
 4. Click on `...` in the gutter of `GET` data output and change it to KeplerGL Map 🗺️ renderer:
 
-![World Cities REST Book 📓](https://github.com/RandomFractals/keplergl-notebook-renderer/blob/main/docs/images/unfolded-map-notebook-renderer.png?raw=true 
+![World Cities REST Book 📓](https://github.com/RandomFractals/unfolded-map-renderer/blob/main/docs/images/unfolded-map-notebook-renderer.png?raw=true 
  "World Cities REST Book 📓")
 
 Also try [World Countries](https://github.com/RandomFractals/unfolded-map-renderer/blob/main/notebooks/world-countries.restbook) REST Book 📓 example:
