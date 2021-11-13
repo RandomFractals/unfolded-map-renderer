@@ -1,7 +1,8 @@
 
-/**
- * Map config template.
- */
+// rendered map hight
+export const mapHeight = 480;
+
+// map config template
 export const mapConfigTemplate: any = {
   "config": {
     "mapState": {

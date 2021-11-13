@@ -12,6 +12,7 @@
   <img width="64" height="64" src="docs/images/equals.png" />
   <img width="64" height="64" src="docs/images/heart.png" /> 
   <br />
+  <br />
   Unfolded Map 🗺️ Notebook 📓 Renderer for VSCode
 </h1>
 
