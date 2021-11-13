@@ -26,7 +26,7 @@ Unfolded Map 🗺️ Notebook 📓 Renderer uses [Unfolded Map SDK](https://docs
 
 # Features
 
-- View Location data from `CSV`, `XML`, `JSON`, and [`GeoJSON`](https://www.rfc-editor.org/rfc/rfc7946.html) Notebook 📓 cell ⌗ data output on the [kepler.gl](https://kepler.gl) map 🗺️
+- View Location data from `CSV`, `XML`, `JSON`, and [`GeoJSON`](https://www.rfc-editor.org/rfc/rfc7946.html) Notebook 📓 cell ⌗ data output on the [Unfolded Studio](https://kepler.gl) map 🗺️
 - [REST Book](https://github.com/RandomFractals/unfolded-map-renderer#rest-book-example) 📓 [TypeScript Notebook](https://github.com/RandomFractals/unfolded-map-renderer#typescript-notebook-example) 📓 [.NET Interactive Notebook](https://github.com/RandomFractals/unfolded-map-renderer#net-interactive-notebook-example) 📓 and [Pyolite](https://github.com/RandomFractals/unfolded-map-renderer#pyolite-notebook-example) 🐍 [Notebook Examples](https://github.com/RandomFractals/unfolded-map-renderer#%EF%B8%8F-examples) 📚
 - View `JSON`, `CSV`, and `XML` data without Geo Location information in `JSON` format in a scrollable text container with [`code pre-wrap`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code) for a quick copy/paste to other places:
 
@@ -39,7 +39,7 @@ Unfolded Map 🗺️ Notebook 📓 Renderer supports loading Location data from 
 
 | Data Mime Type | Location Data | Geo Location Processing Description |
 | --- | --- | --- |
-| `application/geo+json` | [Point](https://www.rfc-editor.org/rfc/rfc7946.html#section-3.1.2) | `GeoJSON` Location `Point` coordinates are displayed using [kepler.gl](https://kepler.gl) map 🗺️ JavaScript library. See our [unfoldedMap.js](https://github.com/RandomFractals/unfolded-map-renderer/blob/main/src/renderer/unfoldedMap.js) for more info about that setup. |
+| `application/geo+json` | [Point](https://www.rfc-editor.org/rfc/rfc7946.html#section-3.1.2) | `GeoJSON` Location `Point` coordinates are displayed using [Unfolded Map 🗺️ SDK](https://docs.unfolded.ai/map-sdk/javascript-map-sdk) JavaScript library. See our [unfoldedMap.js](https://github.com/RandomFractals/unfolded-map-renderer/blob/main/src/renderer/unfoldedMap.js) for more info about that setup. |
 | `application/json` | Objects that contain geo location property pairs ending with: `latitude`/`longitude`, `lat/lng`, or `lat/lng`| Flat `JSON` data objects and arrays are processed by our custom [`GeoConverter`](https://github.com/RandomFractals/unfolded-map-renderer/blob/main/src/renderer/geoConverter.ts) to extract Location information and covert loaded dataset to `GeoJSON` for display on the map. |
 | `text/csv` | `CSV` data with column names in the 1st header row and columns ending with: `latitude`/`longitude`, `lat/lng`, or `lat/lng` | `CSV` data is parsed with [d3-dsv](https://github.com/d3/d3-dsv) JavaScript library and converted to flat `JSON` data array and then to `GeoJSON` with our [`GeoConverter`](https://github.com/RandomFractals/unfolded-map-renderer/blob/main/src/renderer/geoConverter.ts) to display locations on the map. |
 | `application/xml` or `text/xml` | `XML` data with root node children that contain attributes ending with: `latitude`/`longitude`, `lat/lng`, or `lat/lng` | `XML` data is parsed with [fast-xml-parser](https://github.com/NaturalIntelligence/fast-xml-parser) to load it into `JSON` data objects array and then processed with our [`GeoConverter`](https://github.com/RandomFractals/unfolded-map-renderer/blob/main/src/renderer/geoConverter.ts) to display locations on the map. `XML` data support is very alpha and experimental at this point, and might be removed later. |
@@ -88,7 +88,7 @@ Install and use [Data Table 🈸 for Notebooks 📚](https://marketplace.visuals
 
 4. Click on `...` in the gutter of `GET` data output and change it to KeplerGL Map 🗺️ renderer:
 
-![World Cities REST Book 📓](https://github.com/RandomFractals/keplergl-notebook-renderer/blob/main/docs/images/unfolded-map-renderer.png?raw=true 
+![World Cities REST Book 📓](https://github.com/RandomFractals/keplergl-notebook-renderer/blob/main/docs/images/unfolded-map-notebook-renderer.png?raw=true 
  "World Cities REST Book 📓")
 
 Also try [World Countries](https://github.com/RandomFractals/unfolded-map-renderer/blob/main/notebooks/world-countries.restbook) REST Book 📓 example:
