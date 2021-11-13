@@ -27,7 +27,6 @@ Unfolded Map 🗺️ Notebook 📓 Renderer uses [Unfolded Map SDK](https://docs
 # Features
 
 - View Location data from `CSV`, `XML`, `JSON`, and [`GeoJSON`](https://www.rfc-editor.org/rfc/rfc7946.html) Notebook 📓 cell ⌗ data output on the [Unfolded Studio](https://kepler.gl) map 🗺️
-- [REST Book](https://github.com/RandomFractals/unfolded-map-renderer#rest-book-example) 📓 [TypeScript Notebook](https://github.com/RandomFractals/unfolded-map-renderer#typescript-notebook-example) 📓 [.NET Interactive Notebook](https://github.com/RandomFractals/unfolded-map-renderer#net-interactive-notebook-example) 📓 and [Pyolite](https://github.com/RandomFractals/unfolded-map-renderer#pyolite-notebook-example) 🐍 [Notebook Examples](https://github.com/RandomFractals/unfolded-map-renderer#%EF%B8%8F-examples) 📚
 - View `JSON`, `CSV`, and `XML` data without Geo Location information in `JSON` format in a scrollable text container with [`code pre-wrap`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code) for a quick copy/paste to other places:
 
 ![Unfolded Map 🗺️ Renderer Text Output](https://github.com/RandomFractals/unfolded-map-renderer/blob/main/docs/images/unfolded-map-text-output.png?raw=true 
@@ -90,16 +89,6 @@ Install and use [Data Table 🈸 for Notebooks 📚](https://marketplace.visuals
 
 ![World Cities REST Book 📓](https://github.com/RandomFractals/unfolded-map-renderer/blob/main/docs/images/unfolded-map-notebook-renderer.png?raw=true 
  "World Cities REST Book 📓")
-## Pyolite Notebook Example
-
-1. Install [Pyolite](https://marketplace.visualstudio.com/items?itemName=joyceerhl.vscode-pyolite) 🐍 vscode extension
-
-2. Load [Chicago Red Light Cameras](https://github.com/RandomFractals/unfolded-map-renderer/blob/main/notebooks/chicago-red-light-cameras-pyolite.ipynb) Pyolite Notebook 📓
-
-3. Run Python code cell and click on `...` -> `Choose Output Mimetype` -> `text/plain` KeplerGL Map to view red light camera locations on the map 🗺️: 
-
-![Chicago Red Light Cameras Pyolite Notebook 📓](https://github.com/RandomFractals/unfolded-map-renderer/blob/main/docs/images/unfolded-map-pyolite-notebook.png?raw=true 
- "Chicago Red Light Cameras Pyolite Notebook 📓")
 
 # Recommended Extensions
 
