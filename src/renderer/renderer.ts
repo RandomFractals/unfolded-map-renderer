@@ -37,9 +37,8 @@ const unfoldedMap = require('./unfoldedMap.js');
     mapContainer.className = 'map-container';
     mapContainer = output.container.appendChild(mapContainer);
     try {
-      // try to load geo data into unfolded map
+      // try to load geo data on the map
       const map = unfoldedMap.createMap(data, mapContainer);
-      mapContainer.appendChild(map.iframe);
     }
     catch(error: any) {
       console.error('unfolded.map:data: GeoJSON parse error:\n', error);

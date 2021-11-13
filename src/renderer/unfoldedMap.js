@@ -16,15 +16,19 @@ const mapTheme = 'light_streets'; // default map theme
  * @returns map html fragment to add to the cell output display.
  */
 export function createMap(geoData, mapContainer) {
-  let unfoldedMap = {};
+  let map;
   try {
-    // create unfolded map instance
     console.log('unfolded.map:createMap(): creating map ...');
-    const unfoldedMap = new UnfoldedMap({
+    map = new UnfoldedMap({
       embed: true,
       appendToDocument: false,
       height: 600,
       onLoad: () => {
+        map.addDataset({
+          uuid: 'geojson data',
+          label: 'Geo Data',
+          data: JSON.stringify(geoData)
+        });
         console.log('unfolded.map:createMap(): map loaded!');
       }
     });
@@ -32,6 +36,6 @@ export function createMap(geoData, mapContainer) {
   catch (error) {
     console.error('unfolded.map:createMap(): Error:\n', error);
   }
-
-  return unfoldedMap;
+  map.render(mapContainer);
+  return map;
 }
