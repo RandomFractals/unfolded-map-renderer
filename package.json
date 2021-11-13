@@ -6,7 +6,7 @@
   "engines": {
     "vscode": "^1.62.0"
   },
-  "icon": "resources/icons/unfolded-logo.jfif",
+  "icon": "resources/icons/unfolded.jfif",
   "publisher": "RandomFractalsInc",
   "author": "Taras Novak",
   "contributors": [
