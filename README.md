@@ -51,32 +51,6 @@ Install and use [Data Table 🈸 for Notebooks 📚](https://marketplace.visuals
 ![Data Table 🈸 Notebook Examples](https://github.com/RandomFractals/keplergl-notebook-renderer/blob/main/docs/images/data-table-notebook-examples.png?raw=true 
  "Data Table 🈸 Notebook Examples")
 
-## .NET Interactive Notebook Example
-
-1. Install [.NET Install Tool for Extension Authors](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscode-dotnet-runtime) vscode extension
-
-2. Install [.NET Interactive Notebooks](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode) 📚 vscode extension
-
-3. Load [USA Airports](https://github.com/RandomFractals/unfolded-map-renderer/blob/main/notebooks/usa-airports-net.ipynb) .NET Interactive Notebook 📓
-
-4. Run All cells ⌗:
-
-![USA Airports .NET Interactive Notebook 📓](https://github.com/RandomFractals/unfolded-map-renderer/blob/main/docs/images/unfolded-map-net-notebook.png?raw=true 
- "USA Airports .NET Interactive Notebook 📓")
-
-## TypeScript Notebook Example
-
-1. Install [TypeScript Notebooks](https://marketplace.visualstudio.com/items?itemName=donjayamanne.typescript-notebook) 📚 vscode extension
-
-2. Download [USA State Capitals `GeoJSON`](https://github.com/RandomFractals/unfolded-map-renderer/tree/main/data/geojson/usa-state-capitals.geojson) data file
-
-3. Load [USA State Capitals](https://github.com/RandomFractals/unfolded-map-renderer/blob/main/notebooks/usa-state-capitals-typescript.ipynb) TypeScript Notebook 📓
-
-4. Run All cells ⌗ to view that `GeoJSON` data output in a KeplerGL Map 🗺️:
-
-![USA State Capitals TypeScript Notebook 📓](https://github.com/RandomFractals/unfolded-map-renderer/blob/main/docs/images/unfolded-map-typescript-notebook.png?raw=true 
- "USA State Capitals TypeScript Notebook 📓")
-
 ### REST Book Example
 
 1. Install [REST Book](https://marketplace.visualstudio.com/items?itemName=tanhakabir.rest-book) 📓 vscode extension
